@@ -1,0 +1,21 @@
+#pp1 {font:italic 
+    8px/1em "Comic Sans MS";
+    text-align: justify;
+    text-indent: 5.25px;
+    }
+.p1{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: large;
+    word-spacing: 1em;
+    
+}
+.p2{
+    text-decoration:underline;
+    text-transform: uppercase;
+    text-indent: 20px;
+}
+.p3{
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
