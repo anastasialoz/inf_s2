@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+     border: 3px solid pink;
+    margin: 5px;
+    background-color: rgb(152, 152, 248);
+}
+#container{
+    background-color: yellow;
+}
+.block3, .block4, .block5{
+    background-color: gray;
+    padding: 5px;
+    float: left;
+}
+.block3{
+    width: 25%;
+}
+.block4{
+    width: 59%;
+}
+.block5{
+    width:13%;
+}
+
