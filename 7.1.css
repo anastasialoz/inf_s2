@@ -1,0 +1,31 @@
+
+#content 
+{background:blue url("7.1.jpg") fixed center top no-repeat;}
+.block2{
+    font-size: 20px;
+    margin: 20px;
+    background-image: url("7.2.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+.block3{
+    margin: 20px;
+    background-image: url("7.3.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.block4{
+    margin: 20px;
+    background-image: url("7.3.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.block5{
+    border-color: green;
+    background-image: url("7.5.jpg");
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: left;
+}
