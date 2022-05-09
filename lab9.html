@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab9.css">
+</head>
+<body onload="alert('документ загружено')" 
+onunload="alert('розпочато вигруження документа')">
+<textarea name="area1" cols="20" rows="5" onclick="alert('клікнули мишкою в полі')"  ondblclick="alert('клікнули двічі мишкою в полі')"></textarea>
+<img class="img" src="lab9.png" alt="логотип сайту"  onmouseover="alert('Мишка наїхала на рисунок')" 
+onmouseout="alert('Мишка зїхала з рисунку')">
+<input type="text" name="tx1" onfocus="alert('Поле в фокус')" onblur="alert('З поля знято фокус')">
+<select name="sl1" onchange="alert('Змінено вибраний пункт')">
+<option value="v1" selected="selected">значення 1 
+</option>
+<option value="v2">значення 2 </option>
+<option value="v3">значення 3 </option>
+</select>
+
+<br>
+<img src="./lab9_task.png" alt="">
+<br>
+<textarea value="" name="" id="" cols="30" rows="10" ondblclick="alert('клікнули двічі мишкою в полі')" onfocus="alert('Поле в фокус')" onblur="alert('З поля знято фокус')"></textarea>
+<input type="text" name="" id="" ondblclick="alert('клікнули двічі мишкою в полі')" onfocus="alert('Поле в фокус')" onblur="alert('З поля знято фокус')">
+</body>
+</html>
