@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab8</title>
+    <link rel="stylesheet" href="lab8.css">
+</head>
+<body>
+    <form class="flex example" action="" method="post">
+        <textarea name="area1" cols="20" rows="5"></textarea>
+        <select name="sl1">
+            <option value="v1" 
+            selected="selected">значення 1 </option>
+            <option value="v2">значення 2 </option>
+            <option value="v3">значення 3 </option>
+            </select>
+        <input type="text" name="text1" id="" value="Текстове поле">
+        <input type="password" name="ps1" value="password1">
+        <input type="radio" type="radio"name="rd1" value="значення1">Радіокнопка 1
+        <input type="radio" type="radio"name="rd2" value="значення1">Радіокнопка 2
+        <input type="checkbox" name="ch1" value="значення01">Чекбокс 1
+        <input type="checkbox" name="ch2" value="значення02">Чекбокс 2
+        <input type="file" name="fl1">
+        <input type="hidden" name="hd1" value="приховане значення">
+        <input type="button" name="bt1" value="кнопка">
+        <input type="reset" name="rs1" value="очистити">
+        <input type="submit" name="sb1" value="відправити">
+
+    </form>
+    <img src="./lab8.png" alt="">
+    <form action="" method="get" class="ind flex">
+        <div>
+            <span>Логін</span>
+        <input type="text" name="login" maxlength="10" size="15" id="log" value="">
+       </div>
+        <div>
+            <span>Пароль</span>
+            <input type="password" name="ps1" value="">
+        </div>
+        <div>
+            <span>Країна</span>
+            <select name="country" id="country">
+                <option value="ua" selected="selected">Україна </option>
+                <option value="gb">Велика Британія</option>
+                <option value="fr">Франція </option>
+                <option value="pl">Польща </option>
+                <option value="ca"> Канада</option>
+            </select>
+        </div>
+        <div>
+            <span>Стать</span>
+            <input type="radio" type="radio"name="rd1" value="значення1"> Чоловіча
+        <input type="radio" type="radio"name="rd2" value="значення1">Жіноча
+        </div>
+        <div>
+            <span> Інтереси</span>
+            <div class="flex">
+                <div><input type="checkbox" name="ch1" value="">спорт</div>
+                <div><input type="checkbox" name="ch2" value="">танці</div>
+                <div><input type="checkbox" name="ch3" value="">малювання</div>
+                <div><input type="checkbox" name="ch4" value="">фотографія</div>
+                <div><input type="checkbox" name="ch5" value="">навчання</div>
+            </div>
+        </div>
+        <input type="reset" name="rs1" value="очистити">
+        <input type="submit" name="sb1" value="відправити">
+    </form>
+</body>
+</html>

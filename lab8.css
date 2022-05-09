@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.example{
+    width: 50%;
+    margin: 20px auto;
+
+}
+input{
+    margin: 10px;
+}
+.ind{
+    margin: 70px;;
+    width: 20%;
+   
+}
